@@ -1,0 +1,214 @@
+*
+{
+    box-sizing: border-box;
+}
+
+*:focus
+{
+    outline: none;
+}
+body
+{
+    font-family: Arial;
+    background-color: #3498DB;
+    padding: 50px;
+}
+.login
+{
+    top:20px;
+    margin: 20px auto;
+    width: 300px;
+}
+.login-screen
+{
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.app-title
+{
+    text-align: center;
+    color: #777;
+}
+
+.login-form
+{
+    text-align: center;
+}
+.control-group
+{
+    margin-bottom: 10px;
+}
+
+input
+{
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+input:focus
+{
+    border: 2px solid #3498DB;
+    box-shadow: none;
+}
+
+.btn
+{
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.btn:hover
+{
+    background-color: #2980B9;
+}
+
+.login-link
+{
+    font-size: 12px;
+    color: #444;
+    display: block;
+    margin-top: 12px;
+}
+.content
+{
+    background-color:black;
+    color: white;
+    position:absolute;
+    top:130px;
+    width:1520px;
+    height:100px;
+    left:9px;
+    border:1px solid #444;
+}
+.contentAcc
+{
+    background-color:black;
+    color: white;
+    position:absolute;
+    top:130px;
+    width:1520px;
+    height:100px;
+    left:9px;
+    border:1px solid #444;
+}
+.contentDetect
+{
+    background-color:black;
+    color: white;
+    position:absolute;
+    top:130px;
+    width:1520px;
+    height:70px;
+    left:9px;
+    border:1px solid #444;
+}
+table
+{
+    border-collapse:collapse;
+    background-color:black;
+}
+td
+{
+    border:1px solid white;
+    width:900px;
+    text-align:center;
+}
+#tab_title
+{
+    background-color:#3498DB;
+    height:40px;
+    text-align:center;
+}
+#table_footer
+{
+    background-color:#3498DB;
+}
+#formula
+{
+    background-color:black;
+    color: white;
+    position:absolute;
+    top:300px;
+    left:9px;
+    border:1px solid #444;
+}
+#formula2
+{
+    background-color:black;
+    color: white;
+    position:absolute;
+    top:390px;
+    left:9px;
+    border:1px solid #444;
+}
+.labelForm
+{
+    position:absolute;
+    top:260px;
+    left:9px;
+}
+.labelForm2
+{
+    position:absolute;
+    top:360px;
+    left:9px;
+}
+#detectBtn
+{
+    position:absolute;
+    top:-3px;
+    left:252px;
+    background-color:#444;
+}
+#video
+{
+    background-color:black;
+    color: white;
+    position:absolute;
+    top:240px;
+    left:670px;
+    border:1px solid #444;
+}
+.logoMada
+{
+    left:10px;
+    top:9px;
+    position:absolute;
+}
+.logoDgsr
+{
+    left:120px;
+    top:9px;
+    position:absolute;
+}
+#error
+{
+    color:#3498DB;
+    position:absolute;
+    top:420px;
+    left:500px;
+    font-family:impact;
+    font-size:30px;
+    text-align:center;
+}

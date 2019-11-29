@@ -1,0 +1,57 @@
+body{
+   background-image: url("../../../util/image/fond.png");
+}
+#conteneur{
+   width: 75%;
+   height: 664px;
+   margin-bottom: -14px;
+   background-color: rgb(65,65,65);
+   margin-left: 13%;
+   margin-right: -2px;
+}
+
+[class*="span"] {
+   background-color: #000000;
+   margin-bottom: 10px;
+   line-height: 80px;
+   text-align: center;
+   float: left;
+}
+[class="span10"] {
+    background-color: #000000;
+ }
+.span1{
+width: 70px;
+}
+.span2{
+width: 110px;
+}
+.span3{
+width: 180px;
+}
+.span6{
+   width: 385px;
+   height: 100px;
+}
+.span12 {
+width: 97%;
+height: 100px;
+background-image: url("../../../util/image/entete.png");
+}
+.span11 {
+   width: 97%;
+   margin-top: -8px;
+   height: 40px;
+}
+.bas{
+   width: 100%;
+   margin-top: -8px;
+   height: 519px;
+   background-color: white;
+}
+.span4 {
+width: 290px;
+}
+.span8 {
+width: 480px;
+}

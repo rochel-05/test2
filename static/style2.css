@@ -1,0 +1,50 @@
+.container
+{
+    background-color:black;
+}
+#prefoot, prefoot2
+{
+    border : 1px solid silver;
+    background-color: #2980B9;
+}
+#title
+{
+    text-align:center;
+    background-color:#2980B9;
+    border:1px solid silver;
+    font-size:1.5em;
+    font-family:Georgia;
+    color:black;
+}
+#videoComput
+{
+    background-color:black;
+    /*border:1px solid #2980B9;*/
+    font-size:1.3em;
+    font-family:Georgia;
+    color:#2980B9;
+    font-style:oblique;
+}
+#videoYoutube
+{
+    background-color:black;
+    /*border:1px solid white;*/
+    font-size:1.3em;
+    font-family:Georgia;
+    color:#2980B9;
+    font-style:oblique;
+}
+#congrat
+{
+    /*background-color:black;*/
+    font-size:1.5em;
+    font-family:Georgia;
+}
+body
+{
+   font-family:Times New Roman;
+}
+#iframe
+{
+    border:1px solid silver;
+}
