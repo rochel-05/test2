@@ -1,6 +1,6 @@
 
 #our base image
-FROM python:3-onbuild
+FROM python:3.7
 
 RUN mkdir /app2
 WORKDIR /app2
