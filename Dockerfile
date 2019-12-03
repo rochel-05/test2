@@ -2,9 +2,9 @@
 #our base image
 FROM python:3.7
 
-RUN mkdir /app2
-WORKDIR /app2
-ADD . /app2/
+RUN mkdir /app
+WORKDIR /app
+ADD . /app/
 
 # Installing python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
@@ -13,4 +13,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 #run the application
-CMD ["python", "/app2/run.py"]
+CMD ["python", "/app/run.py"]
