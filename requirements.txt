@@ -11,5 +11,5 @@ joblib==0.14.0
 scikit-image==0.16.2
 selenium==3.141.0
 flask_paginate==0.5.5
-tensorflow==1.14.0
+tensorflow==2.7.2
 
